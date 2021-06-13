@@ -7,7 +7,7 @@ super + Return
 ##---------- Rofi Launcher & Menus ----------##
 
 # Rofi App Launcher
-alt + F1
+super + b
 	sh ~/.config/bspwm/rofi/bin/launcher
 
 # Rofi Network Menu
@@ -50,7 +50,7 @@ XF86AudioMute
 	
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
+	mpc {next,prev,toggle,stop} && kunst --size 128x128 --silent
 
 ##---------- Bspwm ----------##
 
