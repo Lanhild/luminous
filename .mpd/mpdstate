@@ -2,9 +2,9 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 0
-time: 1.767000
-random: 0
+current: 43
+time: 87.578000
+random: 1
 repeat: 1
 single: 0
 consume: 0
@@ -12,5 +12,58 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:paradise/PINK BLOOD.mp3
+0:Noice/Till the End.mp3
+1:hoyuy/a.m.3.mp3
+2:hoyuy/Delete.mp3
+3:hoyuy/Hitokakerano Yuki.mp3
+4:hoyuy/Kawakiwoameku.mp3
+5:hoyuy/Kono Yubi Tomare.mp3
+6:hoyuy/Mahi.mp3
+7:hoyuy/Radiant Dreams.mp3
+8:hoyuy/Tsuki O Ou Mayonaka.mp3
+9:hoyuy/Yakusoku.mp3
+10:Noice/ADAMAS.mp3
+11:Noice/Ash.mp3
+12:Noice/Brave Shine.mp3
+13:Noice/Break Beat Bark!.mp3
+14:Noice/Catch the Moment.mp3
+15:Noice/Centimeter.mp3
+16:Noice/dawn.mp3
+17:Noice/First Drop.mp3
+18:Noice/forget-me-not.mp3
+19:Noice/Fukashigi no Carte.mp3
+20:Noice/Gurenge.mp3
+21:Noice/Haru Wa Yuku.mp3
+22:Noice/I will...mp3
+23:Noice/Ignite.mp3
+24:Noice/INNOCENCE.mp3
+25:Noice/Iris.mp3
+26:Noice/Kaibutsu No Uta.mp3
+27:Noice/Kawaki wo Ameku.mp3
+28:Noice/Longing.mp3
+29:Noice/Nisemono No Koi Ni Sayounara.mp3
+30:Noice/ReoNa - ANIMA.mp3
+31:Noice/Resister.mp3
+32:Noice/Resolution.mp3
+33:Noice/Ryusei.mp3
+34:Noice/Selfrontier.mp3
+35:Noice/Shinkaron.mp3
+36:Noice/Shirushi.mp3
+37:Noice/SPARK-AGAIN.mp3
+38:Noice/Tsumibito.mp3
+39:Noice/Ubiquitous dB.mp3
+40:Noice/Unlasting.mp3
+41:piano/Caste Room Kei.mp3
+42:piano/Koi No Uta.mp3
+43:ayaya/Irokousui.mp3
+44:piano/Dororo.mp3
+45:piano/Catch the Moment.mp3
+46:piano/Omoide Shiritori.mp3
+47:piano/SAO medley.mp3
+48:ayaya/summertime.mp3
+49:ayaya/Stars.mp3
+50:ayaya/Matasaburo.mp3
+51:paradise/One Last Kiss.mp3
+52:paradise/Lilac.mp3
+53:paradise/time.mp3
 playlist_end

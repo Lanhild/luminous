@@ -1,0 +1,25 @@
+! ------------------------------------------------------------------------------
+! Project:    Cherry Blossom XResources
+! ------------------------------------------------------------------------------
+
+*background: #dabfcd
+*foreground: #1a0d14
+*cursorColor: #dabfcd
+
+*color0:  #281620
+*color1:  #331e2a
+*color2:  #492c3d
+*color3:  #674156
+*color4:  #8c5a77
+*color5:  #b77a9d
+*color6:  #cfabbe
+*color7:  #ecdfe6
+
+*color8:  #d5cbfc
+*color9:  #bac56d
+*color10:  #f7aed7
+*color11:  #fb8c30
+*color12:  #53c2d8
+*color13:  #25f0b1
+*color14:  #2fd79f
+*color15:  #a9b644

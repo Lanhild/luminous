@@ -1,0 +1,24 @@
+! -----------------------------------------------------------------------------
+! Blue Night color scheme
+! -----------------------------------------------------------------------------
+
+*.foreground:       #c8c8c8
+*.background:       #0f0e1c
+
+! Colors 0-15.
+*.color0: #18172b
+*.color1: #212037
+*.color2: #313050
+*.color3: #484671
+*.color4: #65648f
+*.color5: #8988ac
+*.color6: #b3b2c9
+*.color7: #e2e2ea
+*.color8: #53d5e6
+*.color9: #bab8f8
+*.color10: #f4cfc6
+*.color11: #88eeba
+*.color12: #81e2b0
+*.color13: #f19f84
+*.color14: #ccce7d
+*.color15: #aaa8e3

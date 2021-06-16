@@ -5,14 +5,18 @@
 CFG="$HOME/.config"
 BSP="$HOME/.config/bspwm"
 XRES="$HOME/.Xresources.d"
+ALAC="$HOME/.config/alacritty"
 
 ## Set Style
 set_style () {
 	# apply wallpaper
-	feh --bg-scale "$BSP"/wallpapers/${1}
+	feh --bg-fill "$BSP"/wallpapers/${1}
 	
 	# apply color-scheme
 	cat "$BSP"/themes/${2} > "$XRES"/colors
+
+    # apply alacritty colors
+    # cat "$BSP"/themes/${3} > "$ALAC"/
 	
 	# set gtk theme, icons and cursor
 	if [[ `pidof xsettingsd` ]]; then

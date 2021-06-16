@@ -16,7 +16,7 @@ mkdir () {
 alias ls="ptls"
 alias pwd="ptpwd"
 alias mkdir="ptmkdir"
-alias touch="pttouch"
+alias touch="pttouch && geany"
 alias cp="ptcp"
 alias rm="ptrm"
 

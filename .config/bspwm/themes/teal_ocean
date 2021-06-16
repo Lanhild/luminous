@@ -1,0 +1,22 @@
+! -----------------------------------------------------------------------------
+! Teal Ocean color scheme
+! -----------------------------------------------------------------------------
+
+*.foreground: #d3e2ea
+*.background: #010202
+*.color0:     #030405
+*.color8:     #5dbce0
+*.color1:     #0e1416
+*.color9:     #6dc4e6
+*.color2:     #1e262a
+*.color10:    #f3d5e0
+*.color3:     #333f46
+*.color11:    #a8dcf5
+*.color4:     #4e6069
+*.color12:    #6ec9b0
+*.color5:     #6f8793
+*.color13:    #50b1d4
+*.color6:     #95b4c4
+*.color14:    #a4cb54
+*.color7:     #d7e4ec
+*.color15:    #7bf1d2

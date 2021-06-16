@@ -22,7 +22,7 @@ super + {a,s,d}
 	sh ~/.config/bspwm/rofi/bin/{screenshot,network,themes}
 
 super + e
-	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme ~/.config/bspwm/rofi/themes/clipboard.rasi 
 
 ##---------- Applications ----------##
 

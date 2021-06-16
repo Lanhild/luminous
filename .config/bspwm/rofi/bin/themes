@@ -5,10 +5,10 @@ BSP="$HOME/.config/bspwm/themes"
 rofi_command="rofi -theme $DIR/rofi/themes/themes.rasi"
 
 # Themes
-theme_0=" Nord"
-theme_1=" Nordic"
-theme_2=" Gruvbox"
-theme_3=" Dracula"
+theme_0=" Cherry Blossom"
+theme_1=" Blue Night"
+theme_2=" Teal Ocean"
+theme_3=" Navy"
 theme_4=" Forest"
 theme_5=" Cyberpunk"
 theme_6=" Groot"
@@ -18,19 +18,20 @@ theme_8=" Rick"
 # Variable passed to rofi
 options="$theme_0\n$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\n$theme_6\n$theme_7\n$theme_8"
 
+# It is mandatory for each argument to be passed in order, else the script won't work
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes" -dmenu -selected-row 0)"
 case $chosen in
     $theme_0)
-        bash ${BSP}/set-theme 'nord.jpg' 'nord' 'Arc-Dark' 'Arc-Circle' 'Arc-Cursor-Dark'
+        bash ${BSP}/set-theme 'cherry_blossom.png' 'cherry_blossom' 'cherry_blossom.yml' 'Arc-Dark' 'Arc-Circle' 'Arc-Cursor-Dark'
         ;;
     $theme_1)
-        bash ${BSP}/set-theme 'nordic.jpg' 'nord' 'Nordic' 'Nordic-Folders' 'Nordic-Cursor'
+        bash ${BSP}/set-theme 'blue_night.png' 'blue_night' 'blue_night.yml' 'Nordic' 'Nordic-Folders' 'Nordic-Cursor'
         ;;
     $theme_2)
-        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Luna-Dark' 'Arc-Cursor-Yellow'
+        bash ${BSP}/set-theme  'teal_ocean.jpg' 'teal_ocean' 'teal_ocean.yml'  'Gruvbox' 'Luna-Dark' 'Arc-Cursor-Yellow'
         ;;
     $theme_3)
-        bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Nordic-Folders' 'Nordic-Cursor'
+        bash ${BSP}/set-theme  'navy.png' 'navy' 'navy.yml'  'Dracula' 'Nordic-Folders' 'Nordic-Cursor'
         ;;
     $theme_4)
         bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Luv-Folders-Dark' 'Archcraft-Cursor-Dark'

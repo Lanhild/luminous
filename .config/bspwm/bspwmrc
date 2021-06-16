@@ -27,7 +27,7 @@ bspc config normal_border_color "$BACKGROUND"
 bspc config active_border_color "$MAGENTA"
 bspc config presel_feedback_color "$GREEN"
 
-bspc config border_width         3
+bspc config border_width        0
 bspc config top_padding		5
 bspc config window_gap          20
 bspc config bottom_padding	5
@@ -39,7 +39,7 @@ bspc config focus_follows_pointer true
 ## Autostart -------------------------------#
 
 # Kill if already running
-killall -9 sxhkd xsettingsd dunst xfce4-power-manager picom greenclip
+killall -9 sxhkd xsettingsd dunst xfce4-power-manager picom greenclip dunst-mpd_listen
 
 # Lauch notification daemon
 dunst \
@@ -47,6 +47,9 @@ dunst \
 -lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
 -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
+
+# Launch dunst notifications daemon MPD listener custom script
+dunst-mpd_listen &
 
 # Lauch xsettingsd daemon
 xsettingsd &
